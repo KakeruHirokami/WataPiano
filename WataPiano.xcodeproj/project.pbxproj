@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B06FDB842C5DFC3B003E14BA /* WataPianoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06FDB832C5DFC3B003E14BA /* WataPianoApp.swift */; };
+		B06FDB862C5DFC3B003E14BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06FDB852C5DFC3B003E14BA /* ContentView.swift */; };
+		B06FDB882C5DFC3D003E14BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06FDB872C5DFC3D003E14BA /* Assets.xcassets */; };
+		B06FDB8B2C5DFC3D003E14BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06FDB8A2C5DFC3D003E14BA /* Preview Assets.xcassets */; };
+		B06FDB952C5DFC3D003E14BA /* WataPianoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06FDB942C5DFC3D003E14BA /* WataPianoTests.swift */; };
+		B06FDB9F2C5DFC3D003E14BA /* WataPianoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06FDB9E2C5DFC3D003E14BA /* WataPianoUITests.swift */; };
+		B06FDBA12C5DFC3D003E14BA /* WataPianoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06FDBA02C5DFC3D003E14BA /* WataPianoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B06FDB912C5DFC3D003E14BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06FDB782C5DFC3B003E14BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B06FDB7F2C5DFC3B003E14BA;
+			remoteInfo = WataPiano;
+		};
+		B06FDB9B2C5DFC3D003E14BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06FDB782C5DFC3B003E14BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B06FDB7F2C5DFC3B003E14BA;
+			remoteInfo = WataPiano;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B06FDB802C5DFC3B003E14BA /* WataPiano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WataPiano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06FDB832C5DFC3B003E14BA /* WataPianoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WataPianoApp.swift; sourceTree = "<group>"; };
+		B06FDB852C5DFC3B003E14BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B06FDB872C5DFC3D003E14BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B06FDB8A2C5DFC3D003E14BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B06FDB902C5DFC3D003E14BA /* WataPianoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WataPianoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06FDB942C5DFC3D003E14BA /* WataPianoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WataPianoTests.swift; sourceTree = "<group>"; };
+		B06FDB9A2C5DFC3D003E14BA /* WataPianoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WataPianoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06FDB9E2C5DFC3D003E14BA /* WataPianoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WataPianoUITests.swift; sourceTree = "<group>"; };
+		B06FDBA02C5DFC3D003E14BA /* WataPianoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WataPianoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B06FDB7D2C5DFC3B003E14BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06FDB8D2C5DFC3D003E14BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06FDB972C5DFC3D003E14BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B06FDB772C5DFC3B003E14BA = {
+			isa = PBXGroup;
+			children = (
+				B06FDB822C5DFC3B003E14BA /* WataPiano */,
+				B06FDB932C5DFC3D003E14BA /* WataPianoTests */,
+				B06FDB9D2C5DFC3D003E14BA /* WataPianoUITests */,
+				B06FDB812C5DFC3B003E14BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B06FDB812C5DFC3B003E14BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B06FDB802C5DFC3B003E14BA /* WataPiano.app */,
+				B06FDB902C5DFC3D003E14BA /* WataPianoTests.xctest */,
+				B06FDB9A2C5DFC3D003E14BA /* WataPianoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B06FDB822C5DFC3B003E14BA /* WataPiano */ = {
+			isa = PBXGroup;
+			children = (
+				B06FDB832C5DFC3B003E14BA /* WataPianoApp.swift */,
+				B06FDB852C5DFC3B003E14BA /* ContentView.swift */,
+				B06FDB872C5DFC3D003E14BA /* Assets.xcassets */,
+				B06FDB892C5DFC3D003E14BA /* Preview Content */,
+			);
+			path = WataPiano;
+			sourceTree = "<group>";
+		};
+		B06FDB892C5DFC3D003E14BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B06FDB8A2C5DFC3D003E14BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B06FDB932C5DFC3D003E14BA /* WataPianoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B06FDB942C5DFC3D003E14BA /* WataPianoTests.swift */,
+			);
+			path = WataPianoTests;
+			sourceTree = "<group>";
+		};
+		B06FDB9D2C5DFC3D003E14BA /* WataPianoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B06FDB9E2C5DFC3D003E14BA /* WataPianoUITests.swift */,
+				B06FDBA02C5DFC3D003E14BA /* WataPianoUITestsLaunchTests.swift */,
+			);
+			path = WataPianoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B06FDB7F2C5DFC3B003E14BA /* WataPiano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06FDBA42C5DFC3D003E14BA /* Build configuration list for PBXNativeTarget "WataPiano" */;
+			buildPhases = (
+				B06FDB7C2C5DFC3B003E14BA /* Sources */,
+				B06FDB7D2C5DFC3B003E14BA /* Frameworks */,
+				B06FDB7E2C5DFC3B003E14BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WataPiano;
+			productName = WataPiano;
+			productReference = B06FDB802C5DFC3B003E14BA /* WataPiano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B06FDB8F2C5DFC3D003E14BA /* WataPianoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06FDBA72C5DFC3D003E14BA /* Build configuration list for PBXNativeTarget "WataPianoTests" */;
+			buildPhases = (
+				B06FDB8C2C5DFC3D003E14BA /* Sources */,
+				B06FDB8D2C5DFC3D003E14BA /* Frameworks */,
+				B06FDB8E2C5DFC3D003E14BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B06FDB922C5DFC3D003E14BA /* PBXTargetDependency */,
+			);
+			name = WataPianoTests;
+			productName = WataPianoTests;
+			productReference = B06FDB902C5DFC3D003E14BA /* WataPianoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B06FDB992C5DFC3D003E14BA /* WataPianoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06FDBAA2C5DFC3D003E14BA /* Build configuration list for PBXNativeTarget "WataPianoUITests" */;
+			buildPhases = (
+				B06FDB962C5DFC3D003E14BA /* Sources */,
+				B06FDB972C5DFC3D003E14BA /* Frameworks */,
+				B06FDB982C5DFC3D003E14BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B06FDB9C2C5DFC3D003E14BA /* PBXTargetDependency */,
+			);
+			name = WataPianoUITests;
+			productName = WataPianoUITests;
+			productReference = B06FDB9A2C5DFC3D003E14BA /* WataPianoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06FDB782C5DFC3B003E14BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B06FDB7F2C5DFC3B003E14BA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B06FDB8F2C5DFC3D003E14BA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B06FDB7F2C5DFC3B003E14BA;
+					};
+					B06FDB992C5DFC3D003E14BA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B06FDB7F2C5DFC3B003E14BA;
+					};
+				};
+			};
+			buildConfigurationList = B06FDB7B2C5DFC3B003E14BA /* Build configuration list for PBXProject "WataPiano" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B06FDB772C5DFC3B003E14BA;
+			productRefGroup = B06FDB812C5DFC3B003E14BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B06FDB7F2C5DFC3B003E14BA /* WataPiano */,
+				B06FDB8F2C5DFC3D003E14BA /* WataPianoTests */,
+				B06FDB992C5DFC3D003E14BA /* WataPianoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B06FDB7E2C5DFC3B003E14BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06FDB8B2C5DFC3D003E14BA /* Preview Assets.xcassets in Resources */,
+				B06FDB882C5DFC3D003E14BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06FDB8E2C5DFC3D003E14BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06FDB982C5DFC3D003E14BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B06FDB7C2C5DFC3B003E14BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06FDB862C5DFC3B003E14BA /* ContentView.swift in Sources */,
+				B06FDB842C5DFC3B003E14BA /* WataPianoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06FDB8C2C5DFC3D003E14BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06FDB952C5DFC3D003E14BA /* WataPianoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06FDB962C5DFC3D003E14BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06FDB9F2C5DFC3D003E14BA /* WataPianoUITests.swift in Sources */,
+				B06FDBA12C5DFC3D003E14BA /* WataPianoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B06FDB922C5DFC3D003E14BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B06FDB7F2C5DFC3B003E14BA /* WataPiano */;
+			targetProxy = B06FDB912C5DFC3D003E14BA /* PBXContainerItemProxy */;
+		};
+		B06FDB9C2C5DFC3D003E14BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B06FDB7F2C5DFC3B003E14BA /* WataPiano */;
+			targetProxy = B06FDB9B2C5DFC3D003E14BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B06FDBA22C5DFC3D003E14BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B06FDBA32C5DFC3D003E14BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B06FDBA52C5DFC3D003E14BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WataPiano/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kakeruhirokami.WataPiano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B06FDBA62C5DFC3D003E14BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WataPiano/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kakeruhirokami.WataPiano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B06FDBA82C5DFC3D003E14BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kakeruhirokami.WataPianoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WataPiano.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WataPiano";
+			};
+			name = Debug;
+		};
+		B06FDBA92C5DFC3D003E14BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kakeruhirokami.WataPianoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WataPiano.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WataPiano";
+			};
+			name = Release;
+		};
+		B06FDBAB2C5DFC3D003E14BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kakeruhirokami.WataPianoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WataPiano;
+			};
+			name = Debug;
+		};
+		B06FDBAC2C5DFC3D003E14BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kakeruhirokami.WataPianoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WataPiano;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B06FDB7B2C5DFC3B003E14BA /* Build configuration list for PBXProject "WataPiano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06FDBA22C5DFC3D003E14BA /* Debug */,
+				B06FDBA32C5DFC3D003E14BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06FDBA42C5DFC3D003E14BA /* Build configuration list for PBXNativeTarget "WataPiano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06FDBA52C5DFC3D003E14BA /* Debug */,
+				B06FDBA62C5DFC3D003E14BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06FDBA72C5DFC3D003E14BA /* Build configuration list for PBXNativeTarget "WataPianoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06FDBA82C5DFC3D003E14BA /* Debug */,
+				B06FDBA92C5DFC3D003E14BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06FDBAA2C5DFC3D003E14BA /* Build configuration list for PBXNativeTarget "WataPianoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06FDBAB2C5DFC3D003E14BA /* Debug */,
+				B06FDBAC2C5DFC3D003E14BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06FDB782C5DFC3B003E14BA /* Project object */;
+}
